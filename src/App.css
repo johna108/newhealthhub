@@ -1,0 +1,62 @@
+body {
+  margin: -200px auto 0; /* Adjust the top margin to move content up */
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('C:\Users\jakku\healthhub\public\background.jpg') no-repeat center center fixed; /* Set the image as background */
+  background-size: cover; /* Cover the entire viewport */
+  height: 100vh; /* Ensure full viewport height */
+  display: flex; /* Use flexbox to center content */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+}
+
+h1, h3, h4, h5, h6 {
+  color: #221111; /* Set all headings to white */
+  word-spacing: normal;
+  margin-bottom: -1080px;
+  margin-left: 50px;
+}
+
+h2 {
+  color: #281919;
+  margin-top: -100px;
+}
+
+p {
+  color: #251818;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+.button-app {
+  margin-top: 8px;
+  width: 290px;
+  padding: 10px 50px;
+  font-size: 16px;
+  background-color: #1e1a1a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  display: inline-block; /* Make button fit text width */
+}
+
+.button-app:hover {
+  background-color: #242b33;
+}
+
+/* Feature layout adjustment */
+
+.feature {
+  display: flex; /* Enable flexbox layout */
+  flex-direction: row; /* Stack elements horizontally */
+  width: 25%; /* Adjust width as needed for 3 features */
+  margin-bottom: 20px; /* Maintain spacing between features */
+  background-color: #f5f5f5; /* Background color */
+  padding: 20px; /* Padding */
+  border-radius: 5px; /* Border radius */
+}
